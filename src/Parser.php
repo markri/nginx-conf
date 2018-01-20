@@ -74,7 +74,7 @@ class Parser
 
         $value = '';
 
-        if (!$c) {
+        if (!$c && $c !== '0') {
             return;
         }
 
